@@ -1,0 +1,92 @@
+body {
+  height: 100%;
+  background-color: #FFD700;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  padding: 40px;
+}
+
+.App-title {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+#author-question, #term-question {
+  display: block;
+  font-size: 3em;
+  color: #00BFFF;
+}
+
+#word-question {
+  font-size: 28px;
+  color: #555;
+}
+
+#username, #word-input {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 24px;
+  color: #333;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-radius: 0;
+  border-bottom: 3px dashed #00BFFF;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+#start-button {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+#story-title {
+  color: #00BFFF;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#story-author {
+  color: #C0C0C0;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#sentence {
+  color: #696969;
+  font-size: 3em;
+}
+
+.gif {
+  border: none;
+}
+
+.gif > span {
+  border-bottom: 3px dotted #696969;
+  text-decoration: none;
+}
